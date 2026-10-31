@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "escooter",
+  "version": "${version}",
+  "name": "E-Scooter Elytra",
+  "description": "Client-seitig: Die Elytra wird zum E-Scooter. Enthält ein Resource Pack (Hotbar-Design & Item-Name).",
+  "authors": ["you"],
+  "license": "CC0-1.0",
+  "environment": "client",
+  "entrypoints": { "client": ["de.escooter.EScooterClient"] },
+  "mixins": ["escooter.mixins.json"],
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.4", "java": ">=21", "fabric-api": "*" }
+}

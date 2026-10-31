@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "de.escooter.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["ElytraFeatureRendererMixin", "BipedModelPoseMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
